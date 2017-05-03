@@ -4,6 +4,7 @@
   "description": "Babel boilerplate with ES7, Jest & Eslint support for the Serverless Framework",
   "main": "index.js",
   "scripts": {
+    "start": "serverless offline start",
     "test": "jest",
     "lint": "node node_modules/eslint/bin/eslint.js ."
   },
@@ -18,6 +19,7 @@
     "eslint-plugin-jsx-a11y": "4.0.0",
     "eslint-plugin-react": "6.10.3",
     "jest": "19.0.2",
+    "serverless-offline": "^3.13.5",
     "serverless-webpack": "1.0.0-rc.4",
     "webpack": "2.4.1"
   },
